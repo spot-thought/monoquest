@@ -7,6 +7,8 @@ This assessment is designed to evaluate your ability to:
 * Create a React Router v7 (RR7) app with modern UI tooling
 * Optionally extend Nx with a custom generator
 
+It also serves as a hands-on introduction to the kind of tooling and patterns you'll encounter in our stack.
+
 ## Task Requirements
 
 ### 1. Create an Nx Monorepo with a React Router 7 App
@@ -18,8 +20,8 @@ This assessment is designed to evaluate your ability to:
 
 ### 2. Implement Nested Routes with Breadcrumbs
 * Set up three nested routes: `/foo`, `/foo/bar` and `/foo/bar/baz`.
+* The initial labels should reflect the depth of the route (e.g., `/foo/bar/baz` => `First > Second > Third`).
 * The breadcrumb labels for each page (e.g., `First`, `Second`, `Third`) should be dynamically loaded from a client-side source, such as a simulated config or API.
-* The initial labels should reflect the depth of the route (e.g., `First`, `Second`, `Third`).
 * Include a button on each page that randomizes the breadcrumb labels when clicked.
 * Pages should provide a smooth and consistent experience
 
@@ -29,6 +31,7 @@ This assessment is designed to evaluate your ability to:
 * Account for any manual setup steps in your generator logic
 
 ## Submission Guidelines
-* Push your code to a public GitHub repo.
-* Include a short README.md with setup instructions and anything you want to call out.
-* Bonus points for thoughtful structure, clean code, and usage of best practices.
+* Push your code to a public GitHub repository.
+* Include a brief `README.md` with setup instructions and any context you'd like to share.
+* You're free to use any tools, libraries, or resources you find helpful.
+* There’s no deadline — take as much time as you need. We're not evaluating speed to completion.
